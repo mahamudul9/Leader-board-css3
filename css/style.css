@@ -20,6 +20,7 @@ main{
 .section-title{
     margin-bottom: 20px;
     color: steelblue;
+    flex-direction: ;
 }
 .top-players, .blogs{
     display: grid;
@@ -75,6 +76,7 @@ main{
     display: flex;
     justify-content: space-between;
 }
+
 @media (max-width:992px){
     .top-players{
         grid-template-columns: repeat(2,1fr);  
@@ -93,4 +95,7 @@ main{
     .blog{
         display: block;
     }    
+    .blog-info{
+        width: 60%;
+    }
 }
